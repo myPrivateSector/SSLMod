@@ -1,0 +1,14 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=E_003A_005CSteamLibrary_005Csteamapps_005Ccommon_005CShellShock_0020Live_005CShellShockLive_005FData_005CManaged_005CAssembly_002DCSharp_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=E_003A_005CSteamLibrary_005Csteamapps_005Ccommon_005CShellShock_0020Live_005CShellShockLive_005FData_005CManaged_005CPlayerIOUnity3DClient_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=E_003A_005CSteamLibrary_005Csteamapps_005Ccommon_005CShellShock_0020Live_005CShellShockLive_005FData_005CManaged_005CRewired_005FCore_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=E_003A_005CSteamLibrary_005Csteamapps_005Ccommon_005CShellShock_0020Live_005CShellShockLive_005FData_005CManaged_005CVectrosity_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
+  &lt;Assembly Path="C:\Users\DELL\.nuget\packages\bepinex.baselib\5.4.20\lib\net35\BepInEx.dll" /&gt;&#xD;
+  &lt;Assembly Path="E:\SteamLibrary\steamapps\common\ShellShock Live\ShellShockLive_Data\Managed\Assembly-CSharp.dll" /&gt;&#xD;
+  &lt;Assembly Path="E:\SteamLibrary\steamapps\common\ShellShock Live\ShellShockLive_Data\Managed\PlayerIOUnity3DClient.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Users\DELL\RiderProjects\SSLMod\bin\Debug\net472\SSLMod.dll" /&gt;&#xD;
+&lt;/AssemblyExplorer&gt;</s:String>
+	<s:String x:Key="/Default/Environment/Hierarchy/Build/BuildTool/CustomBuildToolPath/@EntryValue">C:\Program Files\dotnet\sdk\6.0.400\MSBuild.dll</s:String>
+	
+	<s:Boolean x:Key="/Default/Environment/Hierarchy/Build/SolBuilderDuo/RunBuildOnSolutionLoaded/@EntryValue">True</s:Boolean></wpf:ResourceDictionary>

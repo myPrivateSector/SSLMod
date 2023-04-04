@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <AssemblyName>SSLMod</AssemblyName>
+    <Description>My first plugin</Description>
+    <Version>1.0.0</Version>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <LangVersion>latest</LangVersion>
+    <TargetFramework>net472</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <Optimize>true</Optimize>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <DebugSymbols>false</DebugSymbols>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BepInEx.Analyzers" Version="1.*" PrivateAssets="all" />
+    <PackageReference Include="BepInEx.Core" Version="5.*" />
+    <PackageReference Include="BepInEx.PluginInfoProps" Version="1.*" />
+    <PackageReference Include="UnityEngine.Modules" Version="2017.4.40.7214086" IncludeAssets="compile" />
+  </ItemGroup>
+  
+  <ItemGroup Condition="'$(TargetFramework.TrimEnd(`0123456789`))' == 'net'">
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.2" PrivateAssets="all" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>E:\SteamLibrary\steamapps\common\ShellShock Live\ShellShockLive_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="PlayerIOUnity3DClient">
+      <HintPath>E:\SteamLibrary\steamapps\common\ShellShock Live\ShellShockLive_Data\Managed\PlayerIOUnity3DClient.dll</HintPath>
+    </Reference>
+    <Reference Include="Rewired_Core">
+      <HintPath>E:\SteamLibrary\steamapps\common\ShellShock Live\ShellShockLive_Data\Managed\Rewired_Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Vectrosity">
+      <HintPath>E:\SteamLibrary\steamapps\common\ShellShock Live\ShellShockLive_Data\Managed\Vectrosity.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
