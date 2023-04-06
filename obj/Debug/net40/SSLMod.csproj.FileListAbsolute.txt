@@ -1,6 +1,0 @@
-C:\Users\DELL\RiderProjects\SSLMod\obj\Debug\net40\SSLMod.csproj.AssemblyReference.cache
-C:\Users\DELL\RiderProjects\SSLMod\obj\Debug\net40\PluginInfo.cs
-C:\Users\DELL\RiderProjects\SSLMod\obj\Debug\net40\SSLMod.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\DELL\RiderProjects\SSLMod\obj\Debug\net40\SSLMod.AssemblyInfoInputs.cache
-C:\Users\DELL\RiderProjects\SSLMod\obj\Debug\net40\SSLMod.AssemblyInfo.cs
-C:\Users\DELL\RiderProjects\SSLMod\obj\Debug\net40\SSLMod.csproj.CoreCompileInputs.cache
