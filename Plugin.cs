@@ -65,15 +65,15 @@ namespace SSLMod
             Log?.Log(LogLevel.Message, msg);
         }
 
-        [HarmonyPatch(typeof(Gear), "FixedUpdate")]
+        [HarmonyPatch(typeof(\u005B\u005D\u005D\u005B\u005B\u005B\u005D\u005D\u005D\u005D\u005D\u005B\u005B\u005D\u005D\u005D\u005B\u005B\u005D\u005B\u005B\u005D\u005D\u005B\u005B\u005D\u005D\u005D\u005B\u005B\u005D\u005D\u005B\u005D\u005B\u005D\u005B\u005B\u005B\u005B\u005B\u005B\u005B\u005B\u005B\u005B\u005B), "FixedUpdate")]
         public static class GearPatch
         {
-            public static void Prefix(Gear __instance)
+            public static void Prefix(\u005B\u005D\u005D\u005B\u005B\u005B\u005D\u005D\u005D\u005D\u005D\u005B\u005B\u005D\u005D\u005D\u005B\u005B\u005D\u005B\u005B\u005D\u005D\u005B\u005B\u005D\u005D\u005D\u005B\u005B\u005D\u005D\u005B\u005D\u005B\u005D\u005B\u005B\u005B\u005B\u005B\u005B\u005B\u005B\u005B\u005B\u005B __instance)
             {
                 if (_enableGearCollection.Value &&
-                    !Traverse.Create(__instance).Field("BACDDAAACADACCADABBBBDC").GetValue<bool>())
+                    !Traverse.Create(__instance).Field("[]][][[[]]][[]][][][[[][]]]][]][]]]]]]]][[[[[[[").GetValue<bool>())
                 {
-                    __instance.DDAABABBABBCDDBBBBBAACB();
+                    __instance.\u005B\u005D\u005D\u005D\u005D\u005D\u005B\u005B\u005B\u005B\u005D\u005B\u005B\u005D\u005D\u005B\u005B\u005B\u005D\u005D\u005D\u005B\u005D\u005B\u005D\u005D\u005D\u005D\u005D\u005B\u005D\u005D\u005D\u005D\u005D\u005B\u005D\u005D\u005B\u005B\u005B\u005B\u005D\u005D\u005D\u005B\u005B();
                 }
             }
         }
@@ -160,12 +160,12 @@ namespace SSLMod
         //     }
         // }
 
-        [HarmonyPatch(typeof(ReadyBtn), "FixedUpdate")]
+        [HarmonyPatch(typeof(\u005D\u005D\u005B\u005B\u005D\u005B\u005D\u005D\u005D\u005D\u005D\u005D\u005D\u005D\u005D\u005D\u005D\u005B\u005D\u005B\u005D\u005B\u005D\u005D\u005B\u005B\u005B\u005B\u005B\u005D\u005B\u005B\u005D\u005D\u005B\u005D\u005D\u005B\u005B\u005D\u005B\u005D\u005D\u005D\u005B\u005D\u005B), "FixedUpdate")]
         public static class ReadyBtnFixedUpdate
         {
             private static int i = 0;
         
-            public static void Prefix(ReadyBtn __instance)
+            public static void Prefix(\u005D\u005D\u005B\u005B\u005D\u005B\u005D\u005D\u005D\u005D\u005D\u005D\u005D\u005D\u005D\u005D\u005D\u005B\u005D\u005B\u005D\u005B\u005D\u005D\u005B\u005B\u005B\u005B\u005B\u005D\u005B\u005B\u005D\u005D\u005B\u005D\u005D\u005B\u005B\u005D\u005B\u005D\u005D\u005D\u005B\u005D\u005B __instance)
             {
                 if (_enableAutoReady.Value)
                 {
@@ -176,10 +176,10 @@ namespace SSLMod
                     }
         
                     i = 0;
-                    var nowReady = __instance.ADCBABCBAABCDABBCAADDAD.CCCDDADADDADBDDCACADCDA;
+                    var nowReady = __instance.\u005D\u005B\u005B\u005B\u005D\u005B\u005B\u005B\u005D\u005B\u005B\u005D\u005B\u005B\u005B\u005D\u005D\u005D\u005B\u005D\u005B\u005D\u005D\u005D\u005D\u005B\u005B\u005D\u005D\u005B\u005B\u005B\u005D\u005B\u005B\u005D\u005D\u005D\u005D\u005D\u005D\u005D\u005D\u005D\u005B\u005D\u005D.\u005B\u005B\u005D\u005B\u005D\u005B\u005D\u005B\u005D\u005D\u005D\u005B\u005D\u005D\u005D\u005D\u005D\u005B\u005B\u005D\u005D\u005D\u005B\u005D\u005B\u005B\u005D\u005D\u005D\u005B\u005D\u005B\u005D\u005D\u005D\u005D\u005D\u005D\u005D\u005D\u005D\u005B\u005D\u005D\u005B\u005D\u005B;
                     if (!nowReady)
                     {
-                        MethodInfo clickButtonMethod = typeof(ReadyBtn).GetMethod("OnMouseDown", BindingFlags.NonPublic | BindingFlags.Instance);
+                        MethodInfo clickButtonMethod = typeof(\u005D\u005D\u005B\u005B\u005D\u005B\u005D\u005D\u005D\u005D\u005D\u005D\u005D\u005D\u005D\u005D\u005D\u005B\u005D\u005B\u005D\u005B\u005D\u005D\u005B\u005B\u005B\u005B\u005B\u005D\u005B\u005B\u005D\u005D\u005B\u005D\u005D\u005B\u005B\u005D\u005B\u005D\u005D\u005D\u005B\u005D\u005B).GetMethod("OnMouseDown", BindingFlags.NonPublic | BindingFlags.Instance);
                         clickButtonMethod.Invoke(__instance, null);
                     }
                 }
@@ -195,30 +195,30 @@ namespace SSLMod
         //     }
         // }
 
-        [HarmonyPatch(typeof(CAADDADCDADDBCCDBDDCABC), "BCDDDCCADBBAAAACAADCBAA",
+        [HarmonyPatch(typeof(\u005B\u005D\u005B\u005B\u005B\u005D\u005B\u005D\u005D\u005B\u005B\u005B\u005B\u005B\u005B\u005B\u005B\u005D\u005B\u005D\u005D\u005B\u005B\u005D\u005D\u005D\u005B\u005D\u005D\u005D\u005B\u005B\u005D\u005D\u005D\u005D\u005D\u005B\u005B\u005B\u005B\u005D\u005D\u005B\u005B\u005B\u005B), "[][[[][]][[[[[[[[][]][[]]][]]][[]]]]][[[[]][[[[",
             new Type[] {typeof(string), typeof(object[])})]
         public static class MessageLogger
         {
-            public static void Prefix(string DDBDBDCCDCCCDADDDBBAABC, object[] BABDDAAADDDABDDBBDBCAAB)
+            public static void Prefix(string _param1, object[] _param2)
             {
                 if (!_enableMessageSentLogging.Value) return;
                 var data_string = "[";
-                foreach (var d in BABDDAAADDDABDDBBDBCAAB)
+                foreach (var d in _param2)
                 {
                     data_string += d + ", ";
                 }
 
                 data_string += "]";
-                Print("[Message] " + DDBDBDCCDCCCDADDDBBAABC + ": " + data_string);
+                Print("[Message] " + _param1 + ": " + data_string);
             }
         }
 
-        [HarmonyPatch(typeof(AADCBDBDCDDBCBACCCADBBD), "DAACBBCCDCACCDBDCBAACDB")]
+        [HarmonyPatch(typeof(\u005B\u005B\u005B\u005D\u005D\u005D\u005B\u005B\u005B\u005D\u005D\u005D\u005D\u005D\u005B\u005D\u005D\u005B\u005D\u005B\u005B\u005D\u005D\u005D\u005D\u005D\u005D\u005D\u005B\u005D\u005D\u005D\u005D\u005D\u005D\u005D\u005B\u005D\u005B\u005D\u005D\u005B\u005B\u005D\u005B\u005D\u005B), "[[[]]][[[]]]]][]][][[]]]]]]][]]]]]]][][]][[][][")]
         public static class MessageReceiveLogger
         {
-            public static void Prefix(object DABCBCDCDBAADDAABACDBBD, Message ABDBCCDDAAACACBABAADAAC)
+            public static void Prefix(object _param0, Message _param1)
             {
-                var type = ABDBCCDDAAACACBABAADAAC.Type;
+                var type = _param1.Type;
                 if (type == null)
                     return;
 
@@ -230,36 +230,36 @@ namespace SSLMod
                 }
 
                 if (!_enableMessageReceivedLogging.Value) return;
-                Print("[Message] " + ABDBCCDDAAACACBABAADAAC.Type);
+                Print("[Message] " + _param1.Type);
             }
         }
+        
+        private static List<\u005B\u005D\u005D\u005D\u005B\u005D\u005D\u005D\u005D\u005B\u005B\u005B\u005D\u005B\u005D\u005B\u005D\u005D\u005D\u005B\u005D\u005B\u005D\u005D\u005D\u005D\u005B\u005D\u005D\u005D\u005B\u005B\u005B\u005B\u005D\u005B\u005D\u005D\u005B\u005B\u005D\u005B\u005B\u005B\u005D\u005B\u005D> bumper_list;
+        private static List<\u005D\u005B\u005B\u005B\u005D\u005B\u005D\u005D\u005B\u005B\u005B\u005D\u005D\u005B\u005D\u005D\u005D\u005B\u005D\u005D\u005D\u005D\u005D\u005D\u005B\u005B\u005B\u005D\u005B\u005B\u005D\u005B\u005D\u005B\u005B\u005B\u005B\u005B\u005D\u005B\u005D\u005B\u005D\u005D\u005B\u005D\u005D> cbumper_list;
+        private static List<\u005D\u005D\u005B\u005D\u005D\u005B\u005D\u005D\u005B\u005B\u005B\u005D\u005B\u005B\u005D\u005B\u005D\u005B\u005B\u005D\u005D\u005D\u005B\u005B\u005D\u005D\u005D\u005B\u005D\u005B\u005B\u005D\u005D\u005B\u005D\u005D\u005B\u005B\u005B\u005B\u005B\u005D\u005B\u005B\u005D\u005D\u005D> portal_list;
 
-        private static List<ADBBBCBDBBBACCBBBDBADCC> bumper_list;
-        private static List<CABACCBACCACDACCBCABABA> cbumper_list;
-        private static List<CABAACABDBBADDBBABACDAB> portal_list;
-
-        [HarmonyPatch(typeof(BAACDDABCBABADDBADACCCD), "ACDBCABCCBBCDBCCCBCCBCD")] // Bumper from Message Received
+        [HarmonyPatch(typeof(\u005D\u005B\u005B\u005D\u005D\u005B\u005B\u005B\u005B\u005B\u005D\u005B\u005D\u005D\u005B\u005B\u005B\u005B\u005D\u005D\u005B\u005B\u005B\u005B\u005B\u005B\u005B\u005B\u005D\u005B\u005D\u005B\u005B\u005D\u005B\u005B\u005B\u005D\u005B\u005B\u005D\u005D\u005D\u005D\u005D\u005D\u005D), "][[]][[[[[][]][[[[]][[[[[[[[][][[][[[][[]]]]]]]")] // Bumper from Message Received
         class BumperPatch
         {
-            static void Postfix(BAACDDABCBABADDBADACCCD __instance)
+            static void Postfix(\u005D\u005B\u005B\u005D\u005D\u005B\u005B\u005B\u005B\u005B\u005D\u005B\u005D\u005D\u005B\u005B\u005B\u005B\u005D\u005D\u005B\u005B\u005B\u005B\u005B\u005B\u005B\u005B\u005D\u005B\u005D\u005B\u005B\u005D\u005B\u005B\u005B\u005D\u005B\u005B\u005D\u005D\u005D\u005D\u005D\u005D\u005D __instance)
             {
-                var bumper_type = typeof(ADBBBCBDBBBACCBBBDBADCC);
-                var cbumper_type = typeof(CABACCBACCACDACCBCABABA);
-                var portal_type = typeof(CABAACABDBBADDBBABACDAB);
+                var bumper_type = typeof(\u005B\u005D\u005D\u005D\u005B\u005D\u005D\u005D\u005D\u005B\u005B\u005B\u005D\u005B\u005D\u005B\u005D\u005D\u005D\u005B\u005D\u005B\u005D\u005D\u005D\u005D\u005B\u005D\u005D\u005D\u005B\u005B\u005B\u005B\u005D\u005B\u005D\u005D\u005B\u005B\u005D\u005B\u005B\u005B\u005D\u005B\u005D);
+                var cbumper_type = typeof(\u005D\u005B\u005B\u005B\u005D\u005B\u005D\u005D\u005B\u005B\u005B\u005D\u005D\u005B\u005D\u005D\u005D\u005B\u005D\u005D\u005D\u005D\u005D\u005D\u005B\u005B\u005B\u005D\u005B\u005B\u005D\u005B\u005D\u005B\u005B\u005B\u005B\u005B\u005D\u005B\u005D\u005B\u005D\u005D\u005B\u005D\u005D);
+                var portal_type = typeof(\u005D\u005D\u005B\u005D\u005D\u005B\u005D\u005D\u005B\u005B\u005B\u005D\u005B\u005B\u005D\u005B\u005D\u005B\u005B\u005D\u005D\u005D\u005B\u005B\u005D\u005D\u005D\u005B\u005D\u005B\u005B\u005D\u005D\u005B\u005D\u005D\u005B\u005B\u005B\u005B\u005B\u005D\u005B\u005B\u005D\u005D\u005D);
 
-                foreach (var props in __instance.DABDBCDACDBCACDABDDACDC)
+                foreach (var props in __instance.\u005B\u005B\u005B\u005D\u005B\u005D\u005B\u005D\u005D\u005D\u005D\u005B\u005B\u005B\u005D\u005B\u005B\u005D\u005D\u005D\u005B\u005D\u005D\u005B\u005D\u005D\u005B\u005B\u005B\u005D\u005D\u005D\u005B\u005D\u005D\u005D\u005B\u005B\u005D\u005D\u005D\u005B\u005D\u005D\u005D\u005D\u005B)
                 {
                     if (props.GetType() == bumper_type)
                     {
-                        bumper_list.Add((ADBBBCBDBBBACCBBBDBADCC) props);
+                        bumper_list.Add((\u005B\u005D\u005D\u005D\u005B\u005D\u005D\u005D\u005D\u005B\u005B\u005B\u005D\u005B\u005D\u005B\u005D\u005D\u005D\u005B\u005D\u005B\u005D\u005D\u005D\u005D\u005B\u005D\u005D\u005D\u005B\u005B\u005B\u005B\u005D\u005B\u005D\u005D\u005B\u005B\u005D\u005B\u005B\u005B\u005D\u005B\u005D) props);
                     }
                     else if (props.GetType() == cbumper_type)
                     {
-                        cbumper_list.Add((CABACCBACCACDACCBCABABA) props);
+                        cbumper_list.Add((\u005D\u005B\u005B\u005B\u005D\u005B\u005D\u005D\u005B\u005B\u005B\u005D\u005D\u005B\u005D\u005D\u005D\u005B\u005D\u005D\u005D\u005D\u005D\u005D\u005B\u005B\u005B\u005D\u005B\u005B\u005D\u005B\u005D\u005B\u005B\u005B\u005B\u005B\u005D\u005B\u005D\u005B\u005D\u005D\u005B\u005D\u005D) props);
                     }
                     else if (props.GetType() == portal_type)
                     {
-                        portal_list.Add((CABAACABDBBADDBBABACDAB) props);
+                        portal_list.Add((\u005D\u005D\u005B\u005D\u005D\u005B\u005D\u005D\u005B\u005B\u005B\u005D\u005B\u005B\u005D\u005B\u005D\u005B\u005B\u005D\u005D\u005D\u005B\u005B\u005D\u005D\u005D\u005B\u005D\u005B\u005B\u005D\u005D\u005B\u005D\u005D\u005B\u005B\u005B\u005B\u005B\u005D\u005B\u005B\u005D\u005D\u005D) props);
                     }
                 }
             }
@@ -289,7 +289,7 @@ namespace SSLMod
 
             _enableTracers = Config.Bind("Tracer", "Enable", true, "启用追踪线");
             _enableGearCollection = Config.Bind("Gear Collection", "Enable", true, "启用自动收集齿轮");
-            _enableRainbowTracers = Config.Bind("Tracer", "Enable Rainbow Tracers", true, "启用RGB追踪");
+            _enableRainbowTracers = Config.Bind("Tracer", "Enable Rainbow \u005D\u005B\u005D\u005D\u005D\u005B\u005D\u005B\u005D\u005D\u005D\u005D\u005B\u005D\u005B\u005B\u005D\u005D\u005B\u005D\u005D\u005B\u005B\u005D\u005D\u005D\u005D\u005B\u005B\u005D\u005B\u005B\u005D\u005B\u005D\u005B\u005B\u005B\u005D\u005B\u005D\u005B\u005B\u005D\u005B\u005B\u005D", true, "启用RGB追踪");
             _enableAutoReady = Config.Bind("Auto Farm", "Auto Ready Enable", true, "启用自动准备");
             // _enableMoveTowardCenter = Config.Bind("Auto Farm", "Move Toward Center Enable", true,
             //     "向中间移动并在第三回合开始向上射击，在点数XP Farm中很有用。");
@@ -298,7 +298,7 @@ namespace SSLMod
             _enableMessageReceivedLogging =
                 Config.Bind("Message Logging", "Message Received Enable", false, "启用接收消息记录");
             _enablePortalTracers =
-                Config.Bind("Tracer", "Enable Portal Tracers", true, "让你知道哪个传送门连接到哪个传送门，在 Vortex 模式使用");
+                Config.Bind("Tracer", "Enable Portal \u005D\u005B\u005D\u005D\u005D\u005B\u005D\u005B\u005D\u005D\u005D\u005D\u005B\u005D\u005B\u005B\u005D\u005D\u005B\u005D\u005D\u005B\u005B\u005D\u005D\u005D\u005D\u005B\u005B\u005D\u005B\u005B\u005D\u005B\u005D\u005B\u005B\u005B\u005D\u005B\u005D\u005B\u005B\u005D\u005B\u005B\u005D", true, "让你知道哪个传送门连接到哪个传送门，在 Vortex 模式使用");
             
             _cycleInterval = Config.Bind("General", "Cycle Interval", 8, "每次循环的间隔数量，越低每个主循环越快但是会降低性能");
             
@@ -312,9 +312,9 @@ namespace SSLMod
             // force_left = false;
             // force_right = false;
 
-            bumper_list = new List<ADBBBCBDBBBACCBBBDBADCC>();
-            cbumper_list = new List<CABACCBACCACDACCBCABABA>();
-            portal_list = new List<CABAACABDBBADDBBABACDAB>();
+            bumper_list = new List<\u005B\u005D\u005D\u005D\u005B\u005D\u005D\u005D\u005D\u005B\u005B\u005B\u005D\u005B\u005D\u005B\u005D\u005D\u005D\u005B\u005D\u005B\u005D\u005D\u005D\u005D\u005B\u005D\u005D\u005D\u005B\u005B\u005B\u005B\u005D\u005B\u005D\u005D\u005B\u005B\u005D\u005B\u005B\u005B\u005D\u005B\u005D>();
+            cbumper_list = new List<\u005D\u005B\u005B\u005B\u005D\u005B\u005D\u005D\u005B\u005B\u005B\u005D\u005D\u005B\u005D\u005D\u005D\u005B\u005D\u005D\u005D\u005D\u005D\u005D\u005B\u005B\u005B\u005D\u005B\u005B\u005D\u005B\u005D\u005B\u005B\u005B\u005B\u005B\u005D\u005B\u005D\u005B\u005D\u005D\u005B\u005D\u005D>();
+            portal_list = new List<\u005D\u005D\u005B\u005D\u005D\u005B\u005D\u005D\u005B\u005B\u005B\u005D\u005B\u005B\u005D\u005B\u005D\u005B\u005B\u005D\u005D\u005D\u005B\u005B\u005D\u005D\u005D\u005B\u005D\u005B\u005B\u005D\u005D\u005B\u005D\u005D\u005B\u005B\u005B\u005B\u005B\u005D\u005B\u005B\u005D\u005D\u005D>();
             
             angle = 85;
             power = 100;
@@ -349,24 +349,24 @@ namespace SSLMod
                 return;
             }
 
-            var tanks = FindObjectsOfType(typeof(TankMC));
+            var tanks = FindObjectsOfType(typeof(\u005D\u005D\u005D\u005B\u005D\u005B\u005D\u005D\u005B\u005B\u005D\u005D\u005B\u005D\u005D\u005D\u005B\u005D\u005B\u005D\u005D\u005D\u005D\u005D\u005D\u005B\u005D\u005D\u005B\u005B\u005B\u005B\u005D\u005B\u005B\u005B\u005D\u005B\u005D\u005D\u005D\u005D\u005D\u005B\u005D\u005D\u005B));
             var found = false;
-            Aimer aimer = null;
+            \u005B\u005B\u005B\u005D\u005D\u005D\u005D\u005D\u005D\u005B\u005B\u005B\u005D\u005D\u005B\u005B\u005D\u005B\u005D\u005B\u005B\u005B\u005D\u005D\u005D\u005D\u005D\u005D\u005D\u005D\u005D\u005D\u005B\u005D\u005B\u005D\u005D\u005D\u005B\u005D\u005D\u005D\u005D\u005D\u005B\u005D\u005B aimer = null;
 
-            foreach (TankMC tank in tanks)
+            foreach (\u005D\u005D\u005D\u005B\u005D\u005B\u005D\u005D\u005B\u005B\u005D\u005D\u005B\u005D\u005D\u005D\u005B\u005D\u005B\u005D\u005D\u005D\u005D\u005D\u005D\u005B\u005D\u005D\u005B\u005B\u005B\u005B\u005D\u005B\u005B\u005B\u005D\u005B\u005D\u005D\u005D\u005D\u005D\u005B\u005D\u005D\u005B tank in tanks)
             {
-                if (tank.DABCDABDCCBBBDABCCDBCDA == ADCDACADDBAACBCBDBBBCAD.BABAAACCAADADCDBCCACAAC.ACBDDCCDBBAACAAABDBDACA)
+                if (tank.\u005B\u005B\u005D\u005D\u005B\u005D\u005B\u005B\u005D\u005B\u005D\u005B\u005D\u005B\u005D\u005D\u005D\u005D\u005D\u005B\u005B\u005D\u005B\u005B\u005D\u005B\u005B\u005D\u005D\u005B\u005D\u005D\u005D\u005B\u005B\u005D\u005B\u005B\u005B\u005B\u005D\u005B\u005D\u005B\u005D\u005D\u005D == \u005D\u005D\u005B\u005D\u005B\u005B\u005B\u005B\u005B\u005B\u005B\u005B\u005B\u005B\u005B\u005B\u005D\u005B\u005B\u005B\u005B\u005D\u005D\u005B\u005B\u005D\u005D\u005B\u005D\u005B\u005B\u005B\u005B\u005B\u005D\u005D\u005D\u005D\u005D\u005B\u005B\u005D\u005D\u005D\u005B\u005B\u005D.\u005D\u005D\u005B\u005D\u005D\u005B\u005B\u005B\u005D\u005B\u005D\u005B\u005D\u005B\u005B\u005B\u005B\u005B\u005D\u005B\u005D\u005B\u005B\u005B\u005B\u005D\u005D\u005B\u005D\u005D\u005B\u005B\u005B\u005B\u005D\u005B\u005B\u005B\u005B\u005D\u005D\u005D\u005B\u005D\u005B\u005B\u005D.\u005D\u005B\u005B\u005D\u005D\u005D\u005D\u005D\u005D\u005D\u005D\u005B\u005B\u005B\u005B\u005D\u005B\u005D\u005B\u005D\u005D\u005B\u005B\u005B\u005B\u005D\u005D\u005B\u005D\u005D\u005B\u005B\u005D\u005D\u005D\u005D\u005D\u005B\u005B\u005B\u005B\u005B\u005B\u005D\u005D\u005D\u005B)
                 {
                     x = tank.transform.position.x;
                     y = tank.transform.position.y;
-                    aimer = Traverse.Create(tank).Field("BCACDBBCCCDDDCCABDDAABD").GetValue<Aimer>();
-                    angle = 90 - aimer.CDCCBCBBAACABADADADAACC;
+                    aimer = Traverse.Create(tank).Field("[[[]][][[]][[[[[[]]]][][[][[][]][][[[[]]][[[]][").GetValue<\u005B\u005B\u005B\u005D\u005D\u005D\u005D\u005D\u005D\u005B\u005B\u005B\u005D\u005D\u005B\u005B\u005D\u005B\u005D\u005B\u005B\u005B\u005D\u005D\u005D\u005D\u005D\u005D\u005D\u005D\u005D\u005D\u005B\u005D\u005B\u005D\u005D\u005D\u005B\u005D\u005D\u005D\u005D\u005D\u005B\u005D\u005B>();
+                    angle = 90 - aimer.\u005B\u005B\u005D\u005D\u005D\u005B\u005B\u005B\u005D\u005B\u005B\u005D\u005B\u005D\u005D\u005B\u005D\u005B\u005D\u005D\u005B\u005D\u005B\u005B\u005B\u005B\u005D\u005B\u005D\u005D\u005D\u005D\u005B\u005B\u005B\u005D\u005B\u005D\u005D\u005D\u005D\u005D\u005B\u005D\u005B\u005D\u005B;
                     if (angle > 360)
                     {
                         angle -= 360;
                     }
 
-                    power = aimer.ABBDCBDBDDBDCACBABDADBC;
+                    power = aimer.\u005B\u005B\u005B\u005D\u005D\u005D\u005D\u005D\u005D\u005B\u005B\u005D\u005B\u005D\u005D\u005B\u005D\u005B\u005B\u005D\u005D\u005B\u005D\u005B\u005D\u005D\u005D\u005D\u005B\u005D\u005B\u005B\u005D\u005B\u005B\u005D\u005D\u005B\u005B\u005D\u005D\u005D\u005B\u005B\u005B\u005D\u005B;
                     found = true;
                 }
             }
@@ -407,12 +407,12 @@ namespace SSLMod
             //     }
             // }
 
-            var wind_dec = Traverse.Create(WindInd.CCCBDADACAACCDBCCBDDDCA).Field("CBCDABAABBCBDCBAABBADBA").GetValue<float>();
+            var wind_dec = Traverse.Create(\u005B\u005D\u005D\u005D\u005B\u005B\u005D\u005B\u005B\u005D\u005D\u005B\u005B\u005B\u005B\u005D\u005B\u005D\u005B\u005D\u005D\u005D\u005D\u005D\u005B\u005B\u005B\u005D\u005B\u005D\u005D\u005D\u005B\u005D\u005D\u005D\u005D\u005D\u005B\u005B\u005D\u005D\u005D\u005B\u005D\u005D\u005D.\u005D\u005D\u005B\u005D\u005D\u005B\u005B\u005D\u005D\u005B\u005D\u005B\u005D\u005B\u005B\u005D\u005D\u005B\u005D\u005D\u005B\u005D\u005B\u005D\u005D\u005D\u005B\u005D\u005B\u005D\u005B\u005B\u005B\u005B\u005B\u005B\u005B\u005B\u005D\u005B\u005B\u005B\u005B\u005D\u005B\u005B\u005B).Field("[]]][[][[]][[[[][][]]]]][[[][]]][]]]]][[]]][]]]").GetValue<float>();
             wind = wind_dec * 100;
             var time_interval = _tracerTimeInterval.Value;
             var time_limit = _tracerTotalTime.Value;
 
-            Tracers.DACDDBCABADADCDAAACDCDC();
+            \u005D\u005B\u005D\u005D\u005D\u005B\u005D\u005B\u005D\u005D\u005D\u005D\u005B\u005D\u005B\u005B\u005D\u005D\u005B\u005D\u005D\u005B\u005B\u005D\u005D\u005D\u005D\u005B\u005B\u005D\u005B\u005B\u005D\u005B\u005D\u005B\u005B\u005B\u005D\u005B\u005D\u005B\u005B\u005D\u005B\u005B\u005D.\u005D\u005D\u005D\u005B\u005D\u005D\u005B\u005B\u005D\u005B\u005B\u005D\u005B\u005B\u005B\u005B\u005D\u005B\u005B\u005B\u005D\u005B\u005D\u005D\u005D\u005D\u005B\u005D\u005D\u005B\u005B\u005B\u005B\u005B\u005B\u005D\u005B\u005D\u005D\u005B\u005B\u005D\u005D\u005D\u005B\u005B\u005D(); // Tracer.Clear()
             var color = Color.white;
             if (_enableRainbowTracers.Value)
             {
@@ -424,10 +424,10 @@ namespace SSLMod
                 }
             }
 
-            DDACBBADDCCADDACCBACACD tracer_controller =
-                new DDACBBADDCCADDACCBACACD(new VectorLine("Tracer", new List<Vector3>(), null, 4f, LineType.Discrete),
+            \u005B\u005B\u005D\u005D\u005B\u005B\u005D\u005D\u005D\u005B\u005B\u005D\u005B\u005D\u005B\u005D\u005B\u005D\u005B\u005B\u005B\u005B\u005D\u005B\u005B\u005B\u005B\u005B\u005D\u005B\u005D\u005B\u005D\u005D\u005B\u005D\u005D\u005B\u005B\u005D\u005B\u005B\u005B\u005D\u005D\u005D\u005B tracer_controller =
+                new \u005B\u005B\u005D\u005D\u005B\u005B\u005D\u005D\u005D\u005B\u005B\u005D\u005B\u005D\u005B\u005D\u005B\u005D\u005B\u005B\u005B\u005B\u005D\u005B\u005B\u005B\u005B\u005B\u005D\u005B\u005D\u005B\u005D\u005D\u005B\u005D\u005D\u005B\u005B\u005D\u005B\u005B\u005B\u005D\u005D\u005D\u005B(new VectorLine("Tracer", new List<Vector3>(), null, 4f, LineType.Discrete),
                     color);
-            Tracers.DACADCABACBCABADABBCAAD.Add(tracer_controller);
+            \u005D\u005B\u005D\u005D\u005D\u005B\u005D\u005B\u005D\u005D\u005D\u005D\u005B\u005D\u005B\u005B\u005D\u005D\u005B\u005D\u005D\u005B\u005B\u005D\u005D\u005D\u005D\u005B\u005B\u005D\u005B\u005B\u005D\u005B\u005D\u005B\u005B\u005B\u005D\u005B\u005D\u005B\u005B\u005D\u005B\u005B\u005D.\u005B\u005B\u005D\u005B\u005B\u005B\u005B\u005D\u005D\u005B\u005D\u005D\u005B\u005D\u005B\u005B\u005B\u005B\u005B\u005B\u005D\u005B\u005B\u005D\u005D\u005D\u005B\u005B\u005D\u005D\u005B\u005D\u005B\u005D\u005B\u005D\u005D\u005D\u005D\u005D\u005D\u005D\u005B\u005B\u005D\u005B\u005D.Add(tracer_controller);
 
             double radians;
 
@@ -452,8 +452,8 @@ namespace SSLMod
             // {
             //     foreach (var portal in portal_list)
             //     {
-            //         Vector3 portal1_pos = portal.BBDABDABBACDBABDACABDBC.transform.Find("P1").position;
-            //         Vector3 portal2_pos = portal.BBDABDABBACDBABDACABDBC.transform.Find("P2").position;
+            //         Vector3 portal1_pos = portal.\u005D\u005D\u005B\u005B\u005B\u005B\u005B\u005D\u005D\u005D\u005D\u005B\u005B\u005D\u005D\u005D\u005B\u005D\u005D\u005D\u005B\u005D\u005B\u005D\u005B\u005D\u005B\u005D\u005B\u005B\u005B\u005B\u005D\u005D\u005B\u005B\u005B\u005B\u005D\u005D\u005B\u005D\u005B\u005B\u005B\u005B\u005D.transform.Find("P1").position;
+            //         Vector3 portal2_pos = portal.\u005D\u005D\u005B\u005B\u005B\u005B\u005B\u005D\u005D\u005D\u005D\u005B\u005B\u005D\u005D\u005D\u005B\u005D\u005D\u005D\u005B\u005D\u005B\u005D\u005B\u005D\u005B\u005D\u005B\u005B\u005B\u005B\u005D\u005D\u005B\u005B\u005B\u005B\u005D\u005D\u005B\u005D\u005B\u005B\u005B\u005B\u005D.transform.Find("P2").position;
             //         color = RandomColorBaseOnVector3(portal1_pos + portal2_pos);
             //         DrawLine(portal1_pos, portal2_pos, color, 0.1f);
             //     }
@@ -470,7 +470,7 @@ namespace SSLMod
                 {
                     foreach (var bumper in bumper_list)
                     {
-                        GameObject bumper_obj = bumper.BBDABDABBACDBABDACABDBC;
+                        GameObject bumper_obj = bumper.\u005D\u005D\u005B\u005B\u005B\u005B\u005B\u005D\u005D\u005D\u005D\u005B\u005B\u005D\u005D\u005D\u005B\u005D\u005D\u005D\u005B\u005D\u005B\u005D\u005B\u005D\u005B\u005D\u005B\u005B\u005B\u005B\u005D\u005D\u005B\u005B\u005B\u005B\u005D\u005D\u005B\u005D\u005B\u005B\u005B\u005B\u005D;
                         float bumper_radius = bumper_obj.transform.localScale.y * radius_modifier;
                         Vector2 bumper_center = bumper_obj.transform.position;
 
@@ -519,7 +519,7 @@ namespace SSLMod
                     // These bumper is a circle
                     foreach (var bumper in cbumper_list)
                     {
-                        GameObject bumper_obj = bumper.BBDABDABBACDBABDACABDBC;
+                        GameObject bumper_obj = bumper.\u005D\u005D\u005B\u005B\u005B\u005B\u005B\u005D\u005D\u005D\u005D\u005B\u005B\u005D\u005D\u005D\u005B\u005D\u005D\u005D\u005B\u005D\u005B\u005D\u005B\u005D\u005B\u005D\u005B\u005B\u005B\u005B\u005D\u005D\u005B\u005B\u005B\u005B\u005D\u005D\u005B\u005D\u005B\u005B\u005B\u005B\u005D;
                         float bumper_radius = bumper_obj.transform.localScale.y * radius_modifier;
                         Vector2 bumper_center = bumper_obj.transform.position;
 
@@ -565,11 +565,11 @@ namespace SSLMod
                     // Check collision with portals, if hit teleport to the other portal
                     foreach (var portal in portal_list)
                     {
-                        var portal1_location = (Vector2) portal.BBDABDABBACDBABDACABDBC.transform.Find("P1").position;
-                        var portal2_location = (Vector2) portal.BBDABDABBACDBABDACABDBC.transform.Find("P2").position;
+                        var portal1_location = (Vector2) portal.\u005D\u005D\u005B\u005B\u005B\u005B\u005B\u005D\u005D\u005D\u005D\u005B\u005B\u005D\u005D\u005D\u005B\u005D\u005D\u005D\u005B\u005D\u005B\u005D\u005B\u005D\u005B\u005D\u005B\u005B\u005B\u005B\u005D\u005D\u005B\u005B\u005B\u005B\u005D\u005D\u005B\u005D\u005B\u005B\u005B\u005B\u005D.transform.Find("P1").position;
+                        var portal2_location = (Vector2) portal.\u005D\u005D\u005B\u005B\u005B\u005B\u005B\u005D\u005D\u005D\u005D\u005B\u005B\u005D\u005D\u005D\u005B\u005D\u005D\u005D\u005B\u005D\u005B\u005D\u005B\u005D\u005B\u005D\u005B\u005B\u005B\u005B\u005D\u005D\u005B\u005B\u005B\u005B\u005D\u005D\u005B\u005D\u005B\u005B\u005B\u005B\u005D.transform.Find("P2").position;
 
-                        var portal1_scale = (Vector2) portal.BBDABDABBACDBABDACABDBC.transform.Find("P1").localScale;
-                        var portal2_scale = (Vector2) portal.BBDABDABBACDBABDACABDBC.transform.Find("P2").localScale;
+                        var portal1_scale = (Vector2) portal.\u005D\u005D\u005B\u005B\u005B\u005B\u005B\u005D\u005D\u005D\u005D\u005B\u005B\u005D\u005D\u005D\u005B\u005D\u005D\u005D\u005B\u005D\u005B\u005D\u005B\u005D\u005B\u005D\u005B\u005B\u005B\u005B\u005D\u005D\u005B\u005B\u005B\u005B\u005D\u005D\u005B\u005D\u005B\u005B\u005B\u005B\u005D.transform.Find("P1").localScale;
+                        var portal2_scale = (Vector2) portal.\u005D\u005D\u005B\u005B\u005B\u005B\u005B\u005D\u005D\u005D\u005D\u005B\u005B\u005D\u005D\u005D\u005B\u005D\u005D\u005D\u005B\u005D\u005B\u005D\u005B\u005D\u005B\u005D\u005B\u005B\u005B\u005B\u005D\u005D\u005B\u005B\u005B\u005B\u005D\u005D\u005B\u005D\u005B\u005B\u005B\u005B\u005D.transform.Find("P2").localScale;
 
                         // When the portal is at 1 scale it have a radius of  0.55 units
                         var portal1_radius = portal1_scale.y * 0.55f;
@@ -622,7 +622,7 @@ namespace SSLMod
                 last_position = projectile_position;
             }
 
-            tracer_controller.ADDCBBDCABDDCAAACDACDCB.Draw3D();
+            tracer_controller.\u005D\u005B\u005B\u005D\u005D\u005D\u005D\u005B\u005B\u005B\u005D\u005B\u005B\u005B\u005B\u005D\u005B\u005B\u005D\u005B\u005D\u005D\u005D\u005D\u005B\u005D\u005B\u005B\u005D\u005B\u005D\u005B\u005D\u005B\u005D\u005D\u005D\u005B\u005D\u005B\u005D\u005B\u005D\u005D\u005B\u005B\u005D.Draw3D();
 
             // var random_pos = new Vector3(UnityEngine.Random.Range(-10, 10), UnityEngine.Random.Range(-10, 10), UnityEngine.Random.Range(-10, 10));
             // var random_end = new Vector3(UnityEngine.Random.Range(-10, 10), UnityEngine.Random.Range(-10, 10), UnityEngine.Random.Range(-10, 10));
@@ -725,11 +725,11 @@ namespace SSLMod
                    (CA.VectorProduct(CB) * DA.VectorProduct(DB) <= 1e-9);
         }
 
-        public void addVectorToVectorLine(Vector3 pos, DDACBBADDCCADDACCBACACD tracer_controller)
+        public void addVectorToVectorLine(Vector3 pos, \u005B\u005B\u005D\u005D\u005B\u005B\u005D\u005D\u005D\u005B\u005B\u005D\u005B\u005D\u005B\u005D\u005B\u005D\u005B\u005B\u005B\u005B\u005D\u005B\u005B\u005B\u005B\u005B\u005D\u005B\u005D\u005B\u005D\u005D\u005B\u005D\u005D\u005B\u005B\u005D\u005B\u005B\u005B\u005D\u005D\u005D\u005B tracer_controller)
         {
-            ++tracer_controller.BABACCBBBADCAADDDADDBCD;
-            if (tracer_controller.BABACCBBBADCAADDDADDBCD % 1 == 0)
-                tracer_controller.ADDCBBDCABDDCAAACDACDCB.points3.Add(pos);
+            ++tracer_controller.\u005D\u005D\u005B\u005B\u005D\u005D\u005B\u005D\u005D\u005B\u005D\u005D\u005D\u005D\u005D\u005B\u005D\u005B\u005D\u005D\u005D\u005D\u005D\u005B\u005B\u005B\u005B\u005B\u005D\u005B\u005D\u005D\u005D\u005D\u005D\u005D\u005D\u005B\u005B\u005D\u005B\u005B\u005D\u005D\u005B\u005D\u005B;
+            if (tracer_controller.\u005D\u005D\u005B\u005B\u005D\u005D\u005B\u005D\u005D\u005B\u005D\u005D\u005D\u005D\u005D\u005B\u005D\u005B\u005D\u005D\u005D\u005D\u005D\u005B\u005B\u005B\u005B\u005B\u005D\u005B\u005D\u005D\u005D\u005D\u005D\u005D\u005D\u005B\u005B\u005D\u005B\u005B\u005D\u005D\u005B\u005D\u005B % 1 == 0)
+                tracer_controller.\u005D\u005B\u005B\u005D\u005D\u005D\u005D\u005B\u005B\u005B\u005D\u005B\u005B\u005B\u005B\u005D\u005B\u005B\u005D\u005B\u005D\u005D\u005D\u005D\u005B\u005D\u005B\u005B\u005D\u005B\u005D\u005B\u005D\u005B\u005D\u005D\u005D\u005B\u005D\u005B\u005D\u005B\u005D\u005D\u005B\u005B\u005D.points3.Add(pos);
         }
 
         public Vector2 RotatePointAroundPivot(Vector2 point, Vector2 pivot, Vector3 angles)
@@ -762,7 +762,7 @@ namespace SSLMod
 //     public static void Postfix(Proj __instance, ɘɚɘɚɛɘɛɛɛɛəɚɚəɚɚɚɛɘɘɘɚɘ ɛɚɛɛɚɚɛəɚɘɚəɛəɘəɚɛəɘɚəɘ)
 //     {
 //         Print("ProjUpdate" + __instance.ɛɘɚɚɚɚɚəɘɘɘəɚɚəəɚɛɛəɛɘə);
-//         Tracers.ɛɘəɛɚɚəɘɘəɚɛəɚəɘɚɛɘəɛɛə(__instance,
+//         \u005D\u005B\u005D\u005D\u005D\u005B\u005D\u005B\u005D\u005D\u005D\u005D\u005B\u005D\u005B\u005B\u005D\u005D\u005B\u005D\u005D\u005B\u005B\u005D\u005D\u005D\u005D\u005B\u005B\u005D\u005B\u005B\u005D\u005B\u005D\u005B\u005B\u005B\u005D\u005B\u005D\u005B\u005B\u005D\u005B\u005B\u005D.ɛɘəɛɚɚəɘɘəɚɛəɚəɘɚɛɘəɛɛə(__instance,
 //             Color.Lerp(
 //                 ɘɚəɘɛɘɚɚɛɘəɘɘɘɘɚəɘɘɘɚɘɛ.ɛəɘɘəɚɛɘəɘɘəɘɛəɚɛəɘɘəɘɘ(ɛɚɛɛɚɚɛəɚɘɚəɛəɘəɚɛəɘɚəɘ
 //                     .ɛɛɚəəəɛəɘɚɘəəɛɚɘəəɚɘɛəɚ),
