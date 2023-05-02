@@ -19,7 +19,7 @@
 
 ![img_2.png](img_2.png)
 
-## 2. 修改dll
+## 2. 修改dll!
 
 1. 在 dnSpy 中搜索到类后，然后找到`FixedUpdate`函数。
 ![img_3.png](img_3.png)
@@ -35,9 +35,8 @@
 3. 我们需要修改这段代码，让它在鼠标不和齿轮重叠时也能捡起来，这里只需要将if的结果取反就可以了。
 4. 要做到这一点，我们需要编辑IL代码，因为这逼游戏使用的混淆不支持二次编译。
 5. 右键点击`if`语句，然后选择`Edit IL Instructions`。
-![img_4.png](img_4.png)
 6. 在弹出的窗口中，将`brfalse.s`改为`brtrue.s`，然后点击`OK`。
-![img_5.png](img_5.png)
+![img_4.png](img_4.png)
 7. 这时候你应该可以看到`if`语句的结果已经取反了。
 8. 现在我们需要保存修改后的dll，按下`Ctrl+Shift+S`，选择一个其他路径保存，然后点击`OK`。
 9. 备份原版的`Assembly-CSharp.dll`，然后将修改后的dll覆盖原版的dll。
